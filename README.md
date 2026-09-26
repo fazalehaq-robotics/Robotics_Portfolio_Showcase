@@ -113,5 +113,6 @@ Mechanical design and robot modelling in **SolidWorks**, with **URDF / ROS** exp
 To review the full CAD, URDF and drawing files for any project, contact me with your **GitHub username** and I will add you to the private repository.
 
 - **Email:** [fhaq.msee23seecs@seecs.edu.pk](mailto:fhaq.msee23seecs@seecs.edu.pk)
+- **OR:**[fhengineer68@gmail.com](mailto:fhengineer68@gmail.com)
 - **LinkedIn:** [Fazal E Haq](http://www.linkedin.com/in/fazal-e-haq-84b2b821b/)
 - **Fiverr:** [fiverr.com/fazalehaq_123](https://www.fiverr.com/fazalehaq_123)
