@@ -10,9 +10,9 @@ Supervisor: Dr. Latif Anjum · Co-supervisor: Dr. Usman Ali · DAAD funded the a
 
 <table>
 <tr>
-<td width="33%" align="center"><img src="assets/thesis/7dof_render.jpg" width="100%"><br><sub>7-DOF build, SolidWorks render</sub></td>
-<td width="33%" align="center"><img src="assets/thesis/7dof_hardware_upright.jpg" width="100%"><br><sub>Upright build on the lab bench</sub></td>
-<td width="33%" align="center"><img src="assets/thesis/7dof_hardware_inverted.jpg" width="100%"><br><sub>Inverted 6-DOF build under a workbench</sub></td>
+<td width="33%" align="center"><img src="Robotic_Arm_7DOF_Thesis/media/render_2.jpg" width="100%"><br><sub>7-DOF build, SolidWorks render</sub></td>
+<td width="33%" align="center"><img src="Robotic_Arm_7DOF_Thesis/media/hardware_side_2.jpg" width="100%"><br><sub>Upright build on the lab bench</sub></td>
+<td width="33%" align="center"><img src="Robotic_Arm_7DOF_Thesis/media/hardware_inverted_2.jpg" width="100%"><br><sub>Inverted 6-DOF build under a workbench</sub></td>
 </tr>
 </table>
 
@@ -44,9 +44,9 @@ Forward and inverse kinematics · Jacobian and manipulability analysis · worksp
 
 <table>
 <tr>
-<td width="40%" align="center"><img src="assets/previews/7dof_hardware_vs_simulation.gif" width="100%"><br><sub>Hardware and CoppeliaSim model reach the same waypoints</sub></td>
-<td width="20%" align="center"><img src="assets/thesis/7dof_pick_and_place.gif" width="100%"><br><sub>Pick-and-place on the inverted build</sub></td>
-<td width="40%" align="center"><img src="assets/thesis/7dof_circle_trajectory_torque_control.gif" width="100%"><br><sub>Circular trajectory under torque control in simulation</sub></td>
+<td width="40%" align="center"><img src="Robotic_Arm_7DOF_Thesis/media/7dof_hardware_vs_simulation.gif" width="100%"><br><sub>Hardware and CoppeliaSim model reach the same waypoints</sub></td>
+<td width="20%" align="center"><img src="Robotic_Arm_7DOF_Thesis/media/7dof_pick_and_place.gif" width="100%"><br><sub>Pick-and-place on the inverted build</sub></td>
+<td width="40%" align="center"><img src="Robotic_Arm_7DOF_Thesis/media/7dof_circle_trajectory_torque_control.gif" width="100%"><br><sub>Circular trajectory under torque control in simulation</sub></td>
 </tr>
 </table>
 
@@ -54,11 +54,13 @@ Forward and inverse kinematics · Jacobian and manipulability analysis · worksp
 
 Finish gain tuning of the torque controller on hardware, identify joint friction on the assembled arm, and apply redundancy resolution to the 7-DOF build. The arm is in the ROMI Lab, NUST. The full thesis is available on request.
 
+**[Open the thesis project folder](Robotic_Arm_7DOF_Thesis)** for more photos and videos.
+
 ---
 
 ## Portfolio
 
-Mechanical design and robot modelling in **SolidWorks**, with **URDF / ROS** exports, simulation and built hardware. The projects below span serial arms from 3 to 7 DOF, adaptive grippers, heavy two-axis mounts and an automation cell.
+Mechanical design and robot modelling in **SolidWorks**, with **URDF / ROS** exports, simulation and built hardware. The projects below span serial arms from 3 to 7 DOF, adaptive grippers, mobile robots, heavy two-axis mounts and an automation cell. Each project has its own folder with images, videos and a description: click a card to open it.
 
 > **Full project files are private.** Native SolidWorks and STEP models, URDF packages, 2D drawings, BOMs and full-length videos for every project are kept in a private repository. **Access is available upon request** (see [Request access](#request-access)).
 
@@ -68,12 +70,16 @@ Mechanical design and robot modelling in **SolidWorks**, with **URDF / ROS** exp
 
 <table>
 <tr>
-<td width="50%" align="center"><img src="assets/previews/7dof_hardware_vs_simulation.gif" width="100%"><br><sub>7-DOF arm: hardware and simulation running side by side</sub></td>
-<td width="50%" align="center"><img src="assets/previews/5dof_urdf_test.gif" width="100%"><br><sub>5-DOF extrusion-link arm: URDF joint test</sub></td>
+<td width="50%" align="center"><img src="Robotic_Arm_7DOF_Thesis/media/7dof_hardware_vs_simulation.gif" width="100%"><br><sub>7-DOF arm: hardware and simulation running side by side</sub></td>
+<td width="50%" align="center"><img src="SO_ARM_5DOF_Modified/media/5dof_urdf_test.gif" width="100%"><br><sub>5-DOF extrusion-link arm: URDF joint test</sub></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/previews/scara_hardware.gif" width="80%"><br><sub>3-DOF SCARA: printed and assembled prototype</sub></td>
-<td align="center"><img src="assets/previews/finray_gripper_demo.gif" width="55%"><br><sub>Fin Ray gripper conforming to objects</sub></td>
+<td align="center"><img src="Scara_Robotic_Manipulator_3DOF/media/scara_hardware.gif" width="80%"><br><sub>3-DOF SCARA: printed and assembled prototype</sub></td>
+<td align="center"><img src="Finray_Effect_Gripper/media/finray_gripper_demo.gif" width="55%"><br><sub>Fin Ray gripper conforming to objects</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="Beach_Cleaning_Mobile_Manipulator/media/beach_cleaning_robot.gif" width="100%"><br><sub>Beach-cleaning robot: detect, pick and store litter</sub></td>
+<td align="center"><img src="SO_ARM_5DOF_Modified/media/5dof_pick_place_render.gif" width="100%"><br><sub>5-DOF arm: pick-and-place animation</sub></td>
 </tr>
 </table>
 
@@ -81,19 +87,24 @@ Mechanical design and robot modelling in **SolidWorks**, with **URDF / ROS** exp
 
 <table>
 <tr>
-<td width="33%" align="center" valign="top"><img src="assets/thumbs/arm_7dof.jpg"><br><b>7-DOF Modular Manipulator (MS Thesis)</b><br><sub>Designed from scratch; one module set reconfigures from 7 DOF to 3 DOF; 20.8 kg aluminium arm running computed torque control</sub></td>
-<td width="33%" align="center" valign="top"><img src="assets/thumbs/so_arm_5dof.jpg"><br><b>5-DOF Extrusion-Link Arm (Modified SO-ARM)</b><br><sub>30 × 30 mm aluminium extrusion links, FEETECH STS3250 / STS3215 bus servos, 400 g payload target, URDF/ROS package</sub></td>
-<td width="33%" align="center" valign="top"><img src="assets/thumbs/arm_6dof.jpg"><br><b>6-DOF Low-Cost Servo Arm</b><br><sub>MG996R / SG90 servos, rack-and-pinion gripper, 422.9 mm reach, joint torque budget from mass properties, URDF</sub></td>
+<td width="33%" align="center" valign="top"><a href="Robotic_Arm_7DOF_Thesis"><img src="assets/thumbs/arm_7dof.jpg"></a><br><b><a href="Robotic_Arm_7DOF_Thesis">7-DOF Modular Manipulator (MS Thesis)</a></b><br><sub>Designed from scratch; one module set reconfigures from 7 DOF to 3 DOF; 20.8 kg aluminium arm running computed torque control</sub></td>
+<td width="33%" align="center" valign="top"><a href="SO_ARM_5DOF_Modified"><img src="assets/thumbs/so_arm_5dof.jpg"></a><br><b><a href="SO_ARM_5DOF_Modified">5-DOF Extrusion-Link Arm (Modified SO-ARM)</a></b><br><sub>30 × 30 mm aluminium extrusion links, FEETECH bus servos, 400 g payload target, renders, pick-and-place animation, URDF</sub></td>
+<td width="33%" align="center" valign="top"><a href="Robotic_Arm_6DOF_Hobby_Servo"><img src="assets/thumbs/arm_6dof.jpg"></a><br><b><a href="Robotic_Arm_6DOF_Hobby_Servo">6-DOF Low-Cost Servo Arm</a></b><br><sub>MG996R / SG90 servos, rack-and-pinion gripper, 422.9 mm reach, joint torque budget, URDF</sub></td>
 </tr>
 <tr>
-<td align="center" valign="top"><img src="assets/thumbs/scara.jpg"><br><b>3-DOF SCARA Manipulator</b><br><sub>3D-printed SCARA with rack-and-pinion Z axis; FEA-checked brackets; fabricated and assembled with no redesign</sub></td>
-<td align="center" valign="top"><img src="assets/thumbs/finray.jpg"><br><b>Fin Ray Effect Adaptive Gripper</b><br><sub>Compliant fingers, single servo with gear-synchronised motion, printed and tested on hardware</sub></td>
-<td align="center" valign="top"><img src="assets/thumbs/so_arm_101.jpg"><br><b>SO-ARM 101 Modified: URDF Generation</b><br><sub>SolidWorks remodel of the follower arm, link frames and joint limits, exported and validated URDF</sub></td>
+<td align="center" valign="top"><a href="Scara_Robotic_Manipulator_3DOF"><img src="assets/thumbs/scara.jpg"></a><br><b><a href="Scara_Robotic_Manipulator_3DOF">3-DOF SCARA Manipulator</a></b><br><sub>3D-printed SCARA with rack-and-pinion Z axis; FEA-checked brackets; fabricated and assembled with no redesign</sub></td>
+<td align="center" valign="top"><a href="Finray_Effect_Gripper"><img src="assets/thumbs/finray.jpg"></a><br><b><a href="Finray_Effect_Gripper">Fin Ray Effect Adaptive Gripper</a></b><br><sub>Compliant fingers, single servo with gear-synchronised motion, printed and tested on hardware</sub></td>
+<td align="center" valign="top"><a href="So_arm_101_Modified_urdf"><img src="assets/thumbs/so_arm_101.jpg"></a><br><b><a href="So_arm_101_Modified_urdf">SO-ARM 101 Modified: URDF Generation</a></b><br><sub>SolidWorks remodel of the follower arm, link frames and joint limits, exported and validated URDF</sub></td>
 </tr>
 <tr>
-<td align="center" valign="top"><img src="assets/thumbs/m2_turret.jpg"><br><b>Heavy Two-Axis Turret Mount</b><br><sub>Slewing-bearing traverse with spur-gear reduction; BOM, fastener schedule, bearing spec and assembly animations</sub></td>
-<td align="center" valign="top"><img src="assets/thumbs/pkm_turret.jpg"><br><b>Two-Axis Turret Mount: Manufacturing Package</b><br><sub>NEMA 34 geared drive; 43 parts, 19 manufacturing drawings, 27 printable STL parts, screw BOM</sub></td>
-<td align="center" valign="top"><img src="assets/thumbs/workcell.jpg"><br><b>Vision-Guided Pick-and-Place Cell</b><br><sub>Cobot, belt conveyor and overhead camera mast on an aluminium-extrusion frame</sub></td>
+<td align="center" valign="top"><a href="Beach_Cleaning_Mobile_Manipulator"><img src="assets/thumbs/beach_robot.jpg"></a><br><b><a href="Beach_Cleaning_Mobile_Manipulator">Beach-Cleaning Mobile Manipulator</a></b><br><sub>Four-wheel robot with an arm and on-board bin that picks up litter on patrol; rendered animation</sub></td>
+<td align="center" valign="top"><a href="UGV_PKM_Robot"><img src="assets/thumbs/ugv_pkm.jpg"></a><br><b><a href="UGV_PKM_Robot">UGV with Two-Axis Turret Mount</a></b><br><sub>PKM pan/tilt mount integrated on a four-wheel UGV; concept animation</sub></td>
+<td align="center" valign="top"><a href="BrowningM2_Turret_Mount"><img src="assets/thumbs/m2_turret.jpg"></a><br><b><a href="BrowningM2_Turret_Mount">Heavy Two-Axis Turret Mount</a></b><br><sub>Slewing-bearing traverse with spur-gear reduction; BOM, fastener schedule, bearing spec and assembly animations</sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="PKM_Turret_Mount"><img src="assets/thumbs/pkm_turret.jpg"></a><br><b><a href="PKM_Turret_Mount">Two-Axis Turret Mount: Manufacturing Package</a></b><br><sub>NEMA 34 geared drive; 43 parts, 19 manufacturing drawings, 27 printable STL parts, screw BOM</sub></td>
+<td align="center" valign="top"><a href="Pick_and_Place_Workcell"><img src="assets/thumbs/workcell.jpg"></a><br><b><a href="Pick_and_Place_Workcell">Vision-Guided Pick-and-Place Cell</a></b><br><sub>Cobot, belt conveyor and overhead camera mast on an aluminium-extrusion frame</sub></td>
+<td></td>
 </tr>
 </table>
 
